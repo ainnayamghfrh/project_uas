@@ -4,9 +4,12 @@ DEBUG = True
 ALLOWED_HOSTS =.localhost, .my-kelompok5.my.id, .103.175.221.113
 
 # setting database
-DB_ENGINE=django.db.backends.mysql 
-DB_NAME=pemweb-berita
-DB_USER=root
-DB_PASSWORD=
-DB_HOST=127.0.0.1
+DB_ENGINE=django.db.backends.mysql
+DB_NAME=ny13
+DB_USER=ny13
+DB_PASSWORD=6b7442bb12e66b0f906a61d5f61cd5265fe6f4d9a134d4fadf6fc2fa7642526b
+DB_HOST=103.175.221.113
 DB_PORT=3306
+
+ON_SERVER=False
+CELERY_URL=
