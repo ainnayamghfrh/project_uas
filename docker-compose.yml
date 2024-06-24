@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     restart: always
-    container_name: naya
+    container_name: nay13
     environment:
       - TZ=Asia/Makassar
     build:
